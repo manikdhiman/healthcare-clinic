@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} bg-[--color-medical-lightBg] text-slate-800 antialiased`}>
         <Navbar />
         <div className="min-h-screen">
